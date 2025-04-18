@@ -4,9 +4,9 @@ import aiohttp
 TOKEN = "Token"
 WEBHOOK_URL = "Your Webhook URL"
 SERVER_ID = "Your Server ID"
-VANITY_LIST = ["url1", "url2", "url3"]
+VANITY_LIST = ["pilavlitr", "1991", "ozbekistan"]
 DELAY = 0.1
-claimed = False
+claimed = true
 
 async def notify(url, json):
     async with aiohttp.ClientSession() as session:
